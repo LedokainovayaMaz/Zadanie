@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import sys
 
-a = open('sys.argv[1]')
+a = open(sys.argv[1])
 c = {0: 0}
 d, i = 0, 0
 f = a.read()
